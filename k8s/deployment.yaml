@@ -54,7 +54,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: dreamlander/kube-news-tiago:v1
+        image: dreamlander/kube-news-tiago:{{TAG}}
         ports:
         - containerPort: 8080
         env:
